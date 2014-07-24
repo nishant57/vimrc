@@ -55,10 +55,10 @@ endfunction
 imap jj <Esc>
 
 """"""""""""""""""""""""HTML"""""""""""""""""""""""
-"Basic html boilerplate for starting a file
+""""""" Basic html boilerplate for starting a file
 imap ;ht<CR> <!DOCTYPE html><CR><CR><html><CR><c-t><head><CR><c-t><title></title><CR><c-d></head><CR><body><CR><CR></body><CR><c-d></html><Up><Up><Up><Up><Up><Right><Right><Right><Right><Right><Right><Right><Right>
 
-" HTML Tags completion
+""""""" HTML Tags completion
 inoremap <> <><left>
 inoremap %% %%<left>
 inoremap <strong> <strong></strong><left><left><left><left><left><left><left><left><left>
@@ -73,7 +73,8 @@ inoremap {l {% load static %}
 inoremap {ei {% endif %}
 inoremap {ef {% endfor %}
 inoremap ;rr return render(request, '')<left><left>
-
+" Html Comments
+inoremap ;htc <!-- --><left><left><left>		
 
 """"""""""""""""""""""""Tabs Manouvre"""""""""""""""""""""""" 
 " Go to previous or next tab
