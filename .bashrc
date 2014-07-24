@@ -122,7 +122,8 @@ alias lt='ls -laptr' #oldest first sort
 alias labc='ls -lap' #alphabetical sort
 
 # Go to the current project directory
-alias cdjj='cd Desktop/code/projects/tango_with_django_project/'
+# alias cdjj='cd Desktop/code/projects/tango_with_django_project/'
+alias cdjj='cd Desktop/code/projects/formtest/'
 alias cddd='cd Desktop/code/projects'
 
 # don't put duplicate lines in history
