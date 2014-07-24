@@ -73,7 +73,7 @@ inoremap {l {% load static %}
 inoremap {ei {% endif %}
 inoremap {ef {% endfor %}
 inoremap ;rr return render(request, '')<left><left>
-" Html Comments
+"" Html Comments
 inoremap ;htc <!-- --><left><left><left>		
 
 """"""""""""""""""""""""Tabs Manouvre"""""""""""""""""""""""" 
